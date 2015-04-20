@@ -146,8 +146,11 @@ Developers/Debug
 
 After a fresh git clone you should download the bower component and setup the package for development purpose.
 
+If "/usr/bin/env: node: No such file or directory" error appears, install nodejs-legacy
+
 ::
 
+ apt-get install fabric npm
  fab build_assets
  sudo ./setup.py develop
  cp lwp.example.conf lwp.conf
